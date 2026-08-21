@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# runtime data (SQLite DB + uploaded floor plan images) — not committed
+server/data/
+
+# build output
+client/dist/
+
+# logs
+*.log
+npm-debug.log*
